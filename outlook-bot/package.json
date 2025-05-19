@@ -1,0 +1,22 @@
+{
+  "name": "outlook-bot",
+  "version": "1.0.0",
+  "description": "An Outlook bot that sends notifications when new messages are received.",
+  "main": "src/bot.ts",
+  "scripts": {
+    "start": "ts-node src/bot.ts",
+    "build": "tsc",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "@types/node": "^14.14.37",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
